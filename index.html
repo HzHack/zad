@@ -1,471 +1,266 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="theme-color" content="#0f172a">
-    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3209/3209995.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1712">
+<meta name="description" content="زاد الطالب: مسار تأسيسي منظم للمبتدئ في طلب العلم الشرعي يبدأ بالقرآن الكريم قراءةً وتدبراً، مع متابعة التقدم والمراجعة اليومية.">
+<meta property="og:title" content="زاد الطالب | رفيقك في بداية طلب العلم">
+<meta property="og:description" content="منهج متدرج للمبتدئ يبدأ بالقرآن الكريم قراءةً وتدبراً، ثم العقيدة والفقه والحديث واللغة.">
+<title>زاد الطالب — رفيقك في بداية طلب العلم</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Amiri:wght@400;700&display=swap');
+:root{--bg:#08110d;--surface:#101c16;--surface2:#14251c;--surface3:#1a3023;--line:#293e32;--gold:#d8b978;--gold2:#a98b50;--mint:#a8cfb1;--text:#f1f4ef;--muted:#a7b5aa;--soft:#d2dbd3;--shadow:0 18px 55px #0005}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 75% -15%,#23412e 0,transparent 38%),var(--bg);color:var(--text);font-family:'Cairo',sans-serif;line-height:1.85}button,input,textarea{font:inherit}a{color:inherit}.shell{max-width:1160px;margin:auto;padding:0 24px}
+header{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff0d}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brandmark{width:42px;height:42px;border:1px solid #8d754a;border-radius:13px;color:var(--gold);display:grid;place-items:center;font-size:23px;background:linear-gradient(145deg,#1c3022,#0d1912)}.brandname{font-size:17px;font-weight:700;line-height:1.3}.brandname small{display:block;color:var(--muted);font-size:10px;font-weight:400;margin-top:4px}.nav{display:flex;gap:22px;color:var(--muted);font-size:12px}.nav a{text-decoration:none}.nav a:hover{color:var(--gold)}
+.hero{padding:72px 0 42px;position:relative}.hero:before{content:'۞';position:absolute;left:3%;top:15px;font-family:serif;font-size:260px;line-height:1;color:#d8b97808;pointer-events:none}.hero-inner{max-width:790px;position:relative}.eyebrow{color:var(--gold);font-size:11px;font-weight:700;letter-spacing:.3px;display:flex;align-items:center;gap:10px}.eyebrow:before{content:'';width:26px;height:1px;background:var(--gold)}h1{font-family:'Amiri',serif;font-size:clamp(38px,6vw,65px);line-height:1.25;font-weight:700;margin:16px 0 12px;letter-spacing:-.5px}.hero p{color:#c1cdc3;max-width:670px;font-size:15px;margin:0}.hero-actions{display:flex;gap:10px;margin-top:26px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--line);background:var(--surface2);color:var(--text);padding:10px 17px;border-radius:11px;text-decoration:none;cursor:pointer;font-size:12px;transition:.2s}.btn:hover{transform:translateY(-2px);border-color:#718b77}.btn.gold{background:var(--gold);color:#142016;border-color:var(--gold);font-weight:700}.btn.ghost{background:#ffffff06}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:35px;max-width:680px}.metric{border:1px solid var(--line);background:#0c1912bb;border-radius:14px;padding:14px 16px}.metric b{display:block;color:var(--gold);font-size:21px;font-weight:600}.metric span{color:var(--muted);font-size:11px}
+.main-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(260px,.75fr);gap:18px;padding:12px 0 45px}.panel,.sidepanel{border:1px solid var(--line);background:linear-gradient(155deg,#122119,#0e1913);border-radius:18px;box-shadow:var(--shadow)}.panel{padding:23px}.sidepanel{padding:18px;margin-bottom:14px}.panel-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}.panel-heading h2,.sidepanel h3{font-size:17px;margin:0;font-weight:600}.panel-heading p{font-size:11px;color:var(--muted);margin:3px 0 0}.chip{font-size:10px;border:1px solid #6c5b39;color:var(--gold);border-radius:50px;padding:3px 10px;white-space:nowrap}
+.progress-wrap{margin-bottom:17px}.progress-meta{display:flex;justify-content:space-between;color:var(--muted);font-size:11px}.progress{height:6px;background:#27382d;border-radius:20px;margin-top:8px;overflow:hidden}.progress i{height:100%;width:0;display:block;background:linear-gradient(90deg,var(--mint),var(--gold));transition:width .3s}
+.stage{border:1px solid #293d31;border-radius:13px;margin:10px 0;background:#0d1912;overflow:hidden}.stage-head{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:right;padding:14px 15px;background:transparent;color:var(--text);border:0;cursor:pointer}.stage-head:hover{background:#ffffff05}.stage-name{font-size:13px;font-weight:600}.stage-desc{display:block;color:var(--muted);font-size:10px;font-weight:400;margin-top:3px}.stage-meta{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:10px;white-space:nowrap}.chev{color:var(--gold);font-size:15px;transition:transform .2s}.stage.closed .chev{transform:rotate(90deg)}.stage-content{padding:0 14px 10px}.stage.closed .stage-content{display:none}
+.book{display:grid;grid-template-columns:18px minmax(0,1fr) auto;gap:10px;align-items:start;padding:12px 3px;border-top:1px solid #24362a}.book input{margin:7px 0 0;accent-color:var(--mint);width:16px;height:16px;cursor:pointer}.book-title{font-size:12px;font-weight:600;display:block}.book-meta{font-size:10px;color:var(--mint);display:block}.book-note{font-size:11px;color:#bdc9bf;margin:4px 0 0;line-height:1.75}.level{font-size:9px;color:var(--gold);border:1px solid #695b3d;padding:2px 8px;border-radius:30px;white-space:nowrap;margin-top:2px}
+.sidepanel h3{margin-bottom:8px}.subtle{font-size:11px;color:var(--muted);margin:0 0 12px}.timer{font-size:40px;color:var(--gold);font-variant-numeric:tabular-nums;text-align:center;line-height:1.4;padding:10px}.controls{display:flex;justify-content:center;gap:7px;flex-wrap:wrap}.controls .btn{padding:7px 12px;font-size:11px}.textarea{width:100%;min-height:118px;resize:vertical;background:#09140e;border:1px solid var(--line);border-radius:10px;padding:11px;color:var(--text);font-size:12px;outline:none}.textarea:focus{border-color:var(--gold2)}.save-row{display:flex;align-items:center;gap:10px;margin-top:8px}.saved{font-size:10px;color:var(--mint)}.week{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}.day{border:1px solid var(--line);border-radius:9px;text-align:center;padding:5px 0;color:var(--muted);font-size:10px}.day input{display:block;margin:4px auto 0;accent-color:var(--mint)}.steps{list-style:none;padding:0;margin:0}.steps li{display:flex;gap:9px;color:#c2cec5;font-size:11px;margin:9px 0}.num{width:20px;height:20px;flex:0 0 20px;border-radius:7px;background:#203528;color:var(--gold);display:grid;place-items:center;font-size:10px}
+.callout{padding:13px 14px;border-right:2px solid var(--gold);background:#1a291f;border-radius:8px;color:#d1dbd3;font-size:11px;margin-top:16px}.principle{padding:22px 25px;margin:0 0 50px;border:1px solid #6c5a38;background:linear-gradient(110deg,#1c2b20,#121d16);border-radius:16px;display:flex;align-items:center;gap:17px}.principle-mark{font-family:'Amiri';font-size:36px;color:var(--gold)}.principle b{display:block;font-size:13px}.principle p{margin:2px 0 0;color:var(--muted);font-size:11px}
+footer{border-top:1px solid #ffffff12;padding:20px 0 30px;color:#819287;font-size:10px;text-align:center}footer strong{color:var(--gold);font-weight:500}
+@media(max-width:820px){.main-grid{grid-template-columns:1fr}.side-column{display:grid;grid-template-columns:1fr 1fr;gap:12px}.sidepanel{margin:0}.sidepanel:last-child{grid-column:span 2}}
+@media(max-width:560px){.shell{padding:0 15px}header{height:66px}.nav{gap:12px;font-size:10px}.nav a:nth-child(3){display:none}.hero{padding:50px 0 30px}.hero:before{font-size:170px;left:-10px}.hero p{font-size:13px}.metrics{gap:7px;margin-top:25px}.metric{padding:10px}.metric b{font-size:18px}.metric span{font-size:9px}.main-grid{padding-top:5px}.panel{padding:15px}.panel-heading h2{font-size:15px}.side-column{display:block}.sidepanel{margin-bottom:12px}.stage-head{padding:12px}.book{gap:8px}.book-note{font-size:10px}.level{font-size:8px}.principle{padding:16px;gap:10px}}
 
-    <title>PRO MECHANIC | AI SYSTEM</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800;900&display=swap" rel="stylesheet">
-    
-    <style>
-        :root {
-            --primary: #ff6b00;      
-            --accent: #6366f1;       
-            --success: #10b981;      
-            --bg-dark: #0f172a;      
-            --glass: rgba(30, 41, 59, 0.75);
-            --border: rgba(255, 255, 255, 0.1);
-            --text: #f8fafc;
-            --insta-grad: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-        }
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.quran-panel{border-color:#6c5a38;background:linear-gradient(150deg,#1a2b1f,#0e1913 70%);margin-bottom:16px;position:relative;overflow:hidden}
+.quran-panel:before{content:'۞';position:absolute;left:14px;top:-26px;font-family:serif;font-size:130px;color:#d8b9780c;pointer-events:none}
+.ayah-line{font-family:'Amiri',serif;font-size:19px;color:var(--gold);margin:0 0 14px;line-height:2}
+.wird-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+.wbox{border:1px solid #2c4235;background:#0b1610;border-radius:13px;padding:14px}
+.wbox h3{margin:0 0 8px;font-size:12px;font-weight:600;color:var(--soft)}
+.counter{display:flex;align-items:center;justify-content:center;gap:14px;margin:6px 0 4px}
+.counter b{font-size:34px;color:var(--gold);font-variant-numeric:tabular-nums;min-width:56px;text-align:center;line-height:1.2}
+.round{width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--surface2);color:var(--text);font-size:20px;cursor:pointer;line-height:1}
+.round:hover{border-color:var(--gold2)}
+.wmeta{display:flex;justify-content:space-between;align-items:center;font-size:10px;color:var(--muted);gap:8px;flex-wrap:wrap}
+.goalsel{background:#09140e;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:3px 6px;font-size:11px}
+.tadabbur{border:1px solid #2c4235;border-radius:13px;padding:14px 16px;background:#0b1610}
+.tadabbur h3{margin:0 0 6px;font-size:13px;font-weight:600}
+.tadabbur ol{margin:0 0 12px;padding:0 18px 0 0;color:#c2cec5;font-size:11px}
+.tadabbur li{margin:3px 0}
+.tadabbur .textarea{min-height:84px}
+.streak{color:var(--mint)}
+.ok-note{font-size:10px;color:var(--mint)}
+.timer-status{text-align:center;font-size:11px;color:var(--mint);min-height:20px;margin-bottom:6px}
+.journal{list-style:none;margin:14px 0 0;padding:0;max-height:260px;overflow:auto}
+.journal li{border-top:1px solid #24362a;padding:9px 2px;font-size:11px;color:#c9d4cb}
+.journal .jh{display:flex;justify-content:space-between;gap:8px;color:var(--muted);font-size:9px;margin-bottom:3px}
+.journal .tag{color:var(--gold);border:1px solid #695b3d;border-radius:20px;padding:0 7px}
+.journal button{background:none;border:0;color:#8aa08f;cursor:pointer;font-size:10px;padding:0}
+.journal button:hover{color:var(--gold)}
+.select{width:100%;margin-bottom:8px;background:#09140e;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:12px}
+.day.today{border-color:var(--gold2);color:var(--gold)}
+.linkbtn{background:none;border:0;color:var(--gold);cursor:pointer;font-size:10px;text-decoration:underline;padding:0}
+.stage.quran{border-color:#6c5a38}
+@media(max-width:560px){.wird-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
-        * { box-sizing: border-box; margin: 0; padding: 0; outline: none; -webkit-tap-highlight-color: transparent; }
-
-        body {
-            font-family: 'Cairo', sans-serif;
-            background-color: var(--bg-dark);
-            color: var(--text);
-            background-image: 
-                linear-gradient(rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.96)),
-                url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20h20v20H20zM0 0h20v20H0z' fill='%23ff6b00' fill-opacity='0.03' fill-rule='evenodd'/%3E%3C/svg%3E");
-            min-height: 100vh;
-            padding-bottom: 80px;
-            scroll-behavior: smooth;
-        }
-
-        header { text-align: center; padding: 30px 20px; }
-        h1 {
-            font-size: 2.5rem; font-weight: 900; margin: 0;
-            background: linear-gradient(to right, #fff, #94a3b8);
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-            text-shadow: 0 10px 20px rgba(0,0,0,0.5);
-        }
-        .status-badge {
-            background: rgba(16, 185, 129, 0.1); color: var(--success);
-            padding: 5px 15px; border-radius: 20px; font-size: 0.8rem; font-weight: bold;
-            border: 1px solid rgba(16, 185, 129, 0.2); margin-top: 10px; display: inline-block;
-        }
-
-        .container { max-width: 900px; margin: 0 auto; padding: 0 15px; }
-
-        .card {
-            background: var(--glass);
-            backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
-            border: 1px solid var(--border);
-            border-radius: 24px; padding: 25px; margin-bottom: 25px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
-            position: relative; overflow: hidden;
-        }
-        .card::before {
-            content:''; position: absolute; top:0; left:0; width:100%; height:4px;
-            background: linear-gradient(90deg, var(--primary), var(--accent));
-        }
-
-        .section-head { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
-        .section-head h2 { font-size: 1.3rem; color: #fff; margin: 0; }
-        .icon-box { 
-            width: 40px; height: 40px; background: rgba(255,255,255,0.05); 
-            border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;
-        }
-
-        .input-group { margin-bottom: 15px; }
-        input, select, textarea {
-            width: 100%; padding: 18px; 
-            background: rgba(10, 15, 30, 0.6);
-            border: 2px solid var(--border); border-radius: 16px;
-            color: #fff; font-family: 'Cairo'; font-size: 1.1rem; transition: 0.3s;
-        }
-        input:focus, select:focus, textarea:focus { border-color: var(--primary); transform: translateY(-2px); }
-
-        .btn-row { display: flex; gap: 12px; margin-top: 10px; }
-        button {
-            flex: 1; padding: 18px; border: none; border-radius: 16px;
-            font-family: 'Cairo'; font-weight: 800; font-size: 1rem; cursor: pointer;
-            transition: 0.2s; display: flex; justify-content: center; align-items: center; gap: 10px;
-        }
-        button:active { transform: scale(0.97); }
-        .btn-scan { background: linear-gradient(135deg, var(--primary), #ea580c); color: #fff; box-shadow: 0 4px 20px rgba(255, 107, 0, 0.25); }
-        .btn-ai { background: linear-gradient(135deg, var(--accent), #4f46e5); color: #fff; }
-        .btn-ghost { background: rgba(255,255,255,0.08); color: #fff; }
-
-        /* VIN & Notes */
-        .vin-result { display: none; background: rgba(0,0,0,0.2); padding: 15px; border-radius: 16px; margin-top: 15px; border: 1px dashed var(--border); }
-        .vin-tag { display: inline-block; background: var(--accent); padding: 5px 10px; border-radius: 10px; font-size: 0.8rem; margin-right: 5px; }
-        .notes-area { min-height: 150px; line-height: 1.6; font-size: 1rem; }
-
-        /* Results */
-        #resultCard { display: none; margin-top: 20px; animation: slideUp 0.5s ease; }
-        .the-code { font-size: 3.5rem; font-weight: 900; color: var(--primary); line-height: 1; text-shadow: 0 0 30px rgba(255, 107, 0, 0.4); text-align: center; }
-        
-        /* AI Box Styles */
-        .ai-box { 
-            background: rgba(99, 102, 241, 0.08); border: 1px dashed var(--accent); 
-            padding: 20px; border-radius: 16px; margin-top: 20px; display: none; position: relative;
-        }
-        /* AI Pulse Animation */
-        .ai-active {
-            border-color: var(--accent);
-            box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
-        }
-        .ai-loader {
-            display: none; text-align: center; color: var(--accent); margin-top: 10px;
-        }
-        .radar-scan {
-            width: 100%; height: 2px; background: linear-gradient(90deg, transparent, var(--accent), transparent);
-            animation: radar 1.5s infinite;
-        }
-        
-        /* Footer */
-        footer { text-align: center; margin-top: 50px; border-top: 1px solid var(--border); padding-top: 30px; color: #64748b; }
-        .social-container { display: flex; justify-content: center; gap: 15px; margin-top: 15px; flex-wrap: wrap; }
-        .social-btn {
-            display: flex; align-items: center; gap: 8px; padding: 10px 20px;
-            border-radius: 50px; text-decoration: none; color: #fff; font-weight: bold; font-size: 0.9rem;
-            transition: transform 0.3s;
-        }
-        .social-btn:hover { transform: translateY(-3px); }
-        .insta { background: var(--insta-grad); }
-        .snap { background: #FFFC00; color: #000; }
-        .twitter { background: #1DA1F2; }
-
-        @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-        @keyframes radar { 0% { transform: translateX(-100%); opacity: 0; } 50% { opacity: 1; } 100% { transform: translateX(100%); opacity: 0; } }
-        /* تأثير الكتابة */
-        @keyframes blink { 50% { opacity: 0; } }
-        .cursor { display: inline-block; width: 6px; height: 16px; background: var(--accent); animation: blink 1s infinite; vertical-align: middle; margin-right: 5px; }
-
-    </style>
+h1,h2,h3,.brandname,.stage-name,.book-title,.principle b,footer strong{font-family:'Amiri',serif;font-weight:700}
+.brandname small{font-family:'Cairo',sans-serif}
+.brandname{font-size:20px}
+.panel-heading h2,.sidepanel h3{font-size:20px}
+.wbox h3{font-size:15px}.tadabbur h3{font-size:16px}
+.stage-name{font-size:16px}.book-title{font-size:15px}.principle b{font-size:16px}
+select,.goalsel{font-family:inherit}
+@media(max-width:560px){.panel-heading h2{font-size:18px}.stage-name{font-size:15px}.book-title{font-size:14px}}
+</style>
 </head>
 <body>
+<div class="shell">
+<header>
+<a class="brand" href="#">
+<div class="brandmark">۞</div><div class="brandname">زَادُ الطَّالِبِ<small>رفيقك في بداية طلب العلم</small></div>
+</a>
+<nav class="nav"><a href="#quran">القرآن</a><a href="#path">المسار العلمي</a><a href="#review">المراجعة</a><a href="#notes">كناشة الفوائد</a></nav>
+</header>
+<section class="hero">
+<div class="hero-inner">
+<div class="eyebrow">مسار تأسيسي لطالب العلم المبتدئ</div>
+<h1>اُطْلُبِ الْعِلْمَ عَلَى بَصِيرَةٍ<br>وَخُذْ مِنَ الطَّرِيقِ أَوَّلَهُ</h1>
+<p>مسار متدرج أوله القرآن الكريم قراءةً وتدبراً، ثم العقيدة والفقه الحنبلي والحديث واللغة. صُمم لتعرف ماذا تدرس الآن، وماذا تؤجل، ومتى تنتقل إلى المرحلة التالية.</p>
+<div class="hero-actions"><a class="btn gold" href="#quran">ابدأ بالقرآن الكريم <span>←</span></a><a class="btn ghost" href="#path">خريطة العلوم</a><a class="btn ghost" href="#method">طريقة الدراسة</a></div>
+<div class="metrics">
+<div class="metric"><b id="doneCount">0</b><span>مواد أتممتها</span></div>
+<div class="metric"><b id="khatmaMetric">0/604</b><span>صفحات الختمة الحالية</span></div>
+<div class="metric"><b id="percent">0%</b><span>إنجاز الخريطة</span></div>
+</div>
+</div>
+</section>
+<div class="main-grid">
+<main>
+<section class="panel quran-panel" id="quran">
+<div class="panel-heading"><div><h2>الْقُرْآنُ الْكَرِيمُ: قِرَاءَةٌ وَتَدَبُّرٌ</h2><p>أول ما تبدأ به كل يوم، وآخر ما تتركه</p></div><span class="chip">الورد اليومي</span></div>
+<p class="ayah-line">﴿كِتَابٌ أَنزَلْنَاهُ إِلَيْكَ مُبَارَكٌ لِّيَدَّبَّرُوا آيَاتِهِ وَلِيَتَذَكَّرَ أُولُو الْأَلْبَابِ﴾ <span style="font-size:13px;color:var(--muted);font-family:'Cairo',sans-serif">[ص: 29]</span></p>
+<div class="wird-grid">
+<div class="wbox"><h3>صَفَحَاتُ الْيَوْمِ</h3>
+<div class="counter"><button class="round" id="pgMinus" aria-label="إنقاص صفحة">−</button><b id="pgToday">0</b><button class="round" id="pgPlus" aria-label="إضافة صفحة">+</button></div>
+<div class="wmeta"><span>هدفي اليومي: <select class="goalsel" id="goalSel" aria-label="الهدف اليومي"><option value="2">صفحتان</option><option value="4">4 صفحات</option><option value="5">5 صفحات</option><option value="10">10 صفحات</option><option value="20">جزء كامل (20 صفحة)</option></select></span><span class="streak" id="streakTxt"></span></div>
+<div class="progress" style="margin-top:10px"><i id="goalBar"></i></div></div>
+<div class="wbox"><h3>الْخَتْمَةُ الْحَالِيَّةُ</h3>
+<div class="counter"><b id="khPages" style="font-size:28px">0</b><span style="color:var(--muted);font-size:12px">من 604 صفحة</span></div>
+<div class="progress"><i id="khBar"></i></div>
+<div class="wmeta" style="margin-top:10px"><span id="khDone">ختمات مكتملة: 0</span><span id="khLeft"></span></div></div>
+</div>
+<div class="tadabbur">
+<h3>تَدَبُّرُ الْيَوْمِ</h3>
+<ol><li>ما الذي تخبرني به الآيات عن الله وأسمائه وصفاته؟</li><li>ما الأمر أو النهي الذي أحتاج أن أطبقه؟</li><li>ما الحال التي تصفها الآيات، وأين أنا منها؟</li><li>ما الفائدة التي سأعمل بها اليوم؟</li></ol>
+<textarea class="textarea" id="tadText" placeholder="الآية التي وقفت عندها وما تدبرته فيها..." aria-label="تدبر اليوم"></textarea>
+<div class="save-row"><button class="btn gold" id="saveTad" type="button">حفظ التدبر</button><span class="saved" id="tadSaved"></span></div>
+</div>
+<div class="callout">اقرأ بتؤدة وترتيل، وقف عند الآية التي تستوقفك، وراجع تفسيرها الميسر. القصد فهم الخطاب والعمل به لا كثرة الصفحات وحدها.</div>
+</section>
+<section class="panel" id="path">
+<div class="panel-heading"><div><h2>خَرِيطَةُ التَّدَرُّجِ الْعِلْمِيِّ</h2><p>ابدأ بالقرآن، وسر في العلوم بالتدرج ولا تستعجل ما بعدها</p></div><span class="chip">حنبلي · تأسيسي</span></div>
+<div class="progress-wrap"><div class="progress-meta"><span>تقدمك في الخريطة</span><span id="progressText">0 من 0</span></div><div class="progress"><i id="bar"></i></div></div>
+<div id="stages"></div>
+<div class="callout">القرآن الكريم ليس مرحلة تنتهي: أبقِ وردك اليومي مع كل مرحلة بعده. وإتمام الكتاب لا يعني إتقانه. ضع علامة الإنجاز بعد دراسة الكتاب ومراجعته، لا لمجرد تصفحه.</div>
+</section>
+<section class="panel" id="review" style="margin-top:16px">
+<div class="panel-heading"><div><h2>مُتَابَعَةُ الْأُسْبُوعِ</h2><p>الاستمرار أهم من كثرة الساعات</p></div><span class="chip">مراجعة أسبوعية</span></div>
+<div class="week" id="week"></div>
+<p style="margin:8px 0 0"><button class="linkbtn" id="resetWeek" type="button">بدء أسبوع جديد</button></p>
+<p class="subtle" style="margin:12px 0 0">علّم اليوم الذي درست فيه، واجعل لك يوماً للمراجعة وتثبيت المحفوظ.</p>
+</section>
+</main>
+<aside class="side-column">
+<section class="sidepanel">
+<h3>مُؤَقِّتُ جَلْسَةِ الْعِلْمِ</h3><p class="subtle">25 دقيقة تركيز ثم استراحة قصيرة</p>
+<div class="timer" id="timer" role="timer" aria-live="off">25:00</div>
+<div class="timer-status" id="timerStatus" aria-live="polite"></div>
+<div class="controls"><button class="btn gold" id="start">ابدأ الجلسة</button><button class="btn" id="pause">إيقاف</button><button class="btn" id="reset">إعادة</button></div>
+</section>
+<section class="sidepanel" id="notes">
+<h3>كُنَّاشَةُ الْفَوَائِدِ وَالتَّدَبُّرَاتِ</h3><p class="subtle">اكتب فائدة واحدة فهمتها اليوم بأسلوبك.</p>
+<select class="select" id="noteType" aria-label="نوع الملاحظة"><option>فائدة علمية</option><option>تدبر</option><option>سؤال لأسأل عنه</option></select>
+<textarea class="textarea" id="notesText" placeholder="اليوم تعلمت أن..."></textarea>
+<div class="save-row"><button class="btn gold" id="saveNotes" type="button">حفظ الفائدة</button><span class="saved" id="saved"></span></div>
+<ul class="journal" id="journal"></ul>
+</section>
+<section class="sidepanel" id="method">
+<h3>طَرِيقَةُ الدِّرَاسَةِ الْمُقْتَرَحَةُ</h3>
+<ul class="steps">
+<li><span class="num">١</span><span>اقرأ مقداراً يسيراً أو استمع لشرح موثوق.</span></li>
+<li><span class="num">٢</span><span>افهم المسألة ومصطلحاتها قبل حفظها.</span></li>
+<li><span class="num">٣</span><span>أغلق الكتاب واشرح ما فهمته لنفسك.</span></li>
+<li><span class="num">٤</span><span>راجع في اليوم التالي، ثم اختبر نفسك آخر الأسبوع.</span></li>
+<li><span class="num">٥</span><span>دوّن الإشكالات واسأل عنها معلماً مؤهلاً.</span></li>
+</ul>
+</section>
+</aside>
+</div>
+<section class="principle"><div class="principle-mark">۞</div><div><b>مَنْهَجُنَا: التَّدَرُّجُ قَبْلَ التَّوَسُّعِ</b><p>هذه خريطة تنظيمية للمذاكرة وليست اعتماداً علمياً أو بديلاً عن التلقي على أهل العلم. الشروح المناسبة والتوجيه من معلم موثوق جزء من الطريق.</p></div></section>
+<footer><strong>زَادُ الطَّالِبِ</strong> — أداة شخصية لتنظيم المذاكرة ومراجعة التقدم<br>يُحفظ تقدمك وملاحظاتك محلياً على جهازك ومتصفحك. <button class="linkbtn" id="resetAll" type="button">مسح كل البيانات</button></footer>
+</div>
+<script>
+const stages=[
+{title:"الْمَرْحَلَةُ الْأُولَى — الْقُرْآنُ الْكَرِيمُ: قِرَاءَةٌ وَتَدَبُّرٌ",desc:"أول المسار ورفيقه في كل مرحلة. لا تؤجله حتى تنهي غيره.",quran:true,books:[
+["وِرْدُ التِّلَاوَةِ الْيَوْمِيُّ","القرآن الكريم","تلاوة وتدبر","حدد مقداراً ثابتاً تقدر على المداومة عليه ولو صفحتين، ثم زده تدريجياً. اقرأ بترتيل وقف عند ما يستوقفك. علّم هذا البند عند ثباتك على الورد أسبوعاً كاملاً."],
+["تُحْفَةُ الْأَطْفَالِ وَالْغِلْمَانِ","التجويد","سليمان الجمزوري","متن مختصر في أحكام التجويد الأساسية. ادرسه بشرح مبسط وطبّقه على تلاوتك، والأفضل أن تصحح قراءتك على مقرئ متقن."],
+["التَّفْسِيرُ الْمُيَسَّرُ","التفسير","نخبة من أساتذة التفسير (مجمع الملك فهد)","اقرأ تفسير ما تتلوه كل يوم في صفحات قليلة لتفهم المعنى الإجمالي قبل التوسع."],
+["تَيْسِيرُ الْكَرِيمِ الرَّحْمَنِ","التفسير","عبد الرحمن بن ناصر السعدي","تفسير مناسب للقارئ بعد الميسر، يعتني بالهدايات والفوائد العملية. اقرأه بمقدار يسير مع ورد التلاوة."],
+["حِفْظُ الْقُرْآنِ بِالتَّدَرُّجِ","الحفظ","جزء عم ثم ما بعده","ابدأ بقصار السور، واحفظ مقداراً يسيراً كل يوم، وراجع المحفوظ قبل الانتقال إلى جديد."],
+["مُرَاجَعَةُ الْمَحْفُوظِ","المراجعة","وِرد ثابت","خصص جزءاً من وقتك للمراجعة، فالمحفوظ بلا مراجعة يتفلت. راجع الجديد في اليوم التالي ثم في آخر الأسبوع."]
+]},
+{title:"الْمَرْحَلَةُ الثَّانِيَةُ — التَّأْسِيسُ",desc:"بداية هادئة لفهم الأصول والعبادات واللغة، وتسير مع ورد القرآن اليومي.",books:[
+["الْأُصُولُ الثَّلَاثَةُ","العقيدة","محمد بن عبد الوهاب","افهم الأصول الثلاثة إجمالاً، واضبط معنى العبادة وأركان الإسلام والإيمان. لا تحفظ ألفاظاً دون فهم."],
+["الْأَرْبَعُونَ النَّوَوِيَّةُ","الحديث","الإمام النووي","ادرس الأحاديث واحداً واحداً: اقرأ الحديث، افهم معناه العام، واستخرج فائدة عملية."],
+["عُمْدَةُ الْفِقْهِ","الفقه الحنبلي","ابن قدامة المقدسي","متن فقهي مناسب كبداية. ابدأ بأبواب الطهارة والصلاة، وتعلّم تصور المسألة قبل حفظ الحكم."],
+["مُخْتَصَرُ سِيرَةِ الرَّسُولِ ﷺ","السيرة","محمد بن عبد الوهاب","اقرأ السيرة لفهم تسلسل الأحداث والاقتداء بالنبي ﷺ، دون الانشغال بالتفاصيل المختلف فيها."],
+["الْآجُرُّومِيَّةُ","النحو","ابن آجروم","مدخل أولي للنحو. خذ باباً صغيراً مع شرح مبسط وتطبيقات، ولا تنتقل قبل فهم الأمثلة."]
+]},
+{title:"الْمَرْحَلَةُ الثَّالِثَةُ — تَثْبِيتُ الْأُصُولِ",desc:"لا تنتقل إليها حتى تستوعب أساسيات المرحلة الثانية.",books:[
+["الْقَوَاعِدُ الْأَرْبَعُ","العقيدة","محمد بن عبد الوهاب","ادرسها بعد الأصول الثلاثة مع شرح موثوق، وركّز على فهم المصطلحات والسياق."],
+["كِتَابُ التَّوْحِيدِ","العقيدة","محمد بن عبد الوهاب","كتاب مهم يحتاج شرحاً وتأصيلاً؛ لا تكتف بقراءة الأبواب دون فهم الآيات والأحاديث."],
+["الْعَقِيدَةُ الْوَاسِطِيَّةُ","العقيدة","ابن تيمية","متن أعلى من البداية؛ ادرسه على شيخ أو شرح تدريجي، ولا تجعله اختبار حفظ سريع."],
+["عُمْدَةُ الْأَحْكَامِ","الحديث والأحكام","عبد الغني المقدسي","أحاديث الأحكام؛ اربط الحديث بالباب الفقهي، ولا تستنبط الأحكام وحدك."]
+]},
+{title:"الْمَرْحَلَةُ الرَّابِعَةُ — أَدَوَاتُ طَالِبِ الْعِلْمِ",desc:"علوم مساعدة تدرس بالتدرج وبالتوازي مع أصل الطلب.",books:[
+["التُّحْفَةُ السَّنِيَّةُ شَرْحُ الْآجُرُّومِيَّةِ","النحو","محمد محيي الدين عبد الحميد","شرح للآجرومية، لا تبدأ به قبل أخذ أساس المتن."],
+["الْأُصُولُ مِنْ عِلْمِ الْأُصُولِ","أصول الفقه","محمد بن صالح العثيمين","مدخل إلى أصول الفقه؛ اقرأه مع شرح أو تدريس."],
+["الْبَيْقُونِيَّةُ","مصطلح الحديث","عمر البيقوني","متن صغير للمصطلحات الأولية، يحتاج أمثلة تطبيقية."],
+["مُقَدِّمَةٌ فِي أُصُولِ التَّفْسِيرِ","علوم القرآن","ابن تيمية","مدخل لفهم قواعد التفسير ومناهج التعامل مع النص، ويعين على تدبر القرآن."]
+]},
+{title:"الْمَرْحَلَةُ الْخَامِسَةُ — التَّوَسُّعُ الْمُنْضَبِطُ",desc:"مرحلة لاحقة بعد تأسيس جيد، وليست برنامجك الحالي.",books:[
+["زَادُ الْمُسْتَقْنِعِ","الفقه الحنبلي","موسى الحجاوي","متن أوسع لضبط مسائل المذهب، ويدرس مع الروض المربع على شيخ."],
+["الرَّوْضُ الْمُرْبِعُ","الفقه الحنبلي","منصور البهوتي","شرح زاد المستقنع؛ لا تبدأ به منفرداً قبل تصور مسائل الزاد."],
+["مَنَارُ السَّبِيلِ","فقه الدليل","ابن ضويان","للتعرف على أدلة مسائل الفقه بعد ضبط المسائل، لا قبلها."],
+["بُلُوغُ الْمَرَامِ","الحديث والأحكام","ابن حجر العسقلاني","مرحلة أوسع في أحاديث الأحكام مع شرح علمي."]
+]},
+{title:"الْمَرْحَلَةُ السَّادِسَةُ — الْمُطَوَّلَاتُ",desc:"للمتقدم بعد سنوات من التدرج والتلقي، وليست للمبتدئ.",books:[
+["الْمُقْنِعُ","الفقه الحنبلي","ابن قدامة","مرحلة توسع في روايات المذهب، تدرس بعد ضبط المختصرات."],
+["الْكَافِي","الفقه الحنبلي","ابن قدامة","أوسع من العمدة، وفيه عناية بالأدلة والتعليل."],
+["الْمُغْنِي","الفقه المقارن","ابن قدامة","مرجع مطول للمقارنة والاستدلال، وليس كتاب مبتدئ."],
+["رَوْضَةُ النَّاظِرِ","أصول الفقه","ابن قدامة","مرحلة متقدمة في أصول الفقه."],
+["أَلْفِيَّةُ ابْنِ مَالِكٍ","النحو","ابن مالك","لا تدرسها قبل رسوخ أساس النحو ودراسة المتون المتوسطة."]
+]}
+];
+const levels=['أولاً','بالتوازي','بعد التأسيس','بعد التأسيس','لاحقاً','لاحقاً'];
+const STORE='zad_student_public_v3',OLD='zad_student_public_v2',PAGES=604;
+const $=id=>document.getElementById(id);
+const esc=t=>String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function load(){try{let v=localStorage.getItem(STORE);if(v)return JSON.parse(v);
+ let o=localStorage.getItem(OLD);if(o){let old=JSON.parse(o),ns={books:{},week:old.week||{},journal:[]};
+  Object.entries(old.books||{}).forEach(([k,v])=>{let[p,q]=k.split('-');ns.books[(+p+1)+'-'+q]=v});
+  if(old.notes)ns.journal.push({d:today(),t:'فائدة علمية',x:old.notes});return ns}}catch(e){}return {}}
+function today(d=new Date()){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
+let state=load();
+function persist(){try{localStorage.setItem(STORE,JSON.stringify(state))}catch(e){}}
+state.quran=Object.assign({goal:4,day:today(),pages:0,total:0,khatmas:0,streak:0,last:''},state.quran||{});
+state.journal=state.journal||[];
+if(state.quran.day!==today()){state.quran.day=today();state.quran.pages=0}
+{let y=new Date();y.setDate(y.getDate()-1);if(state.quran.last!==today()&&state.quran.last!==today(y))state.quran.streak=0}
+function stats(){let total=stages.reduce((n,s)=>n+s.books.length,0),done=Object.values(state.books||{}).filter(Boolean).length,p=Math.round(done/total*100);$('doneCount').textContent=done;$('percent').textContent=p+'%';$('progressText').textContent=done+' من '+total;$('bar').style.width=p+'%'}
+function renderStages(){let out='';stages.forEach((s,si)=>{let count=s.books.filter((b,bi)=>state.books?.[si+'-'+bi]).length;out+=`<section class="stage ${s.quran?'quran':''} ${si>0?'closed':''}"><button class="stage-head" type="button" aria-expanded="${si===0}"><span><span class="stage-name">${s.title}</span><span class="stage-desc">${s.desc}</span></span><span class="stage-meta">${count}/${s.books.length}<span class="chev">⌄</span></span></button><div class="stage-content">`;s.books.forEach((b,bi)=>{let id=si+'-'+bi;out+=`<label class="book"><input type="checkbox" data-book="${id}" ${state.books?.[id]?'checked':''}><span><span class="book-title">${b[0]}</span><span class="book-meta">${b[1]} · ${b[2]}</span><p class="book-note">${b[3]}</p></span><span class="level">${levels[si]}</span></label>`});out+='</div></section>'});$('stages').innerHTML=out;document.querySelectorAll('.stage-head').forEach(btn=>btn.addEventListener('click',()=>{let sec=btn.closest('.stage');sec.classList.toggle('closed');btn.setAttribute('aria-expanded',String(!sec.classList.contains('closed')))}));document.querySelectorAll('[data-book]').forEach(cb=>cb.addEventListener('change',e=>{state.books=state.books||{};state.books[e.target.dataset.book]=e.target.checked;persist();let open=[...document.querySelectorAll('.stage')].map(x=>!x.classList.contains('closed'));renderStages();document.querySelectorAll('.stage').forEach((x,i)=>{if(open[i]){x.classList.remove('closed');x.querySelector('.stage-head').setAttribute('aria-expanded','true')}});stats()}));stats()}
+renderStages();
 
-    <header>
-        <h1>PRO MECHANIC</h1>
-        <div id="dbStatus" class="status-badge">جاري تحميل النظام...</div>
-    </header>
+/* ---- Quran wird ---- */
+function renderQuran(){let q=state.quran;$('pgToday').textContent=q.pages;$('goalSel').value=String(q.goal);
+ $('goalBar').style.width=Math.min(100,Math.round(q.pages/q.goal*100))+'%';
+ $('streakTxt').textContent=q.streak>0?('أيام متتالية: '+q.streak):'';
+ $('khPages').textContent=q.total;$('khBar').style.width=Math.round(q.total/PAGES*100)+'%';
+ $('khDone').textContent='ختمات مكتملة: '+q.khatmas;
+ let left=PAGES-q.total;$('khLeft').textContent='المتبقي '+left+' صفحة (≈ '+Math.ceil(left/q.goal)+' يوماً بهدفك)';
+ $('khatmaMetric').textContent=q.total+'/'+PAGES}
+function addPages(n){let q=state.quran;if(n<0&&q.pages===0)return;q.pages+=n;q.total+=n;
+ if(q.total>=PAGES){q.khatmas++;q.total-=PAGES}
+ if(q.total<0){if(q.khatmas>0){q.khatmas--;q.total+=PAGES}else q.total=0}
+ if(n>0&&q.pages>=q.goal&&q.last!==today()){let y=new Date();y.setDate(y.getDate()-1);q.streak=(q.last===today(y))?q.streak+1:1;q.last=today();
+  let di=(new Date().getDay()+1)%7;state.week=state.week||{};state.week[di]=true;renderWeek()}
+ persist();renderQuran()}
+$('pgPlus').onclick=()=>addPages(1);$('pgMinus').onclick=()=>addPages(-1);
+$('goalSel').onchange=e=>{state.quran.goal=+e.target.value;persist();renderQuran()};
+renderQuran();
 
-    <div class="container">
+/* ---- Week ---- */
+const names=['س','ح','ن','ث','ر','خ','ج'];
+function renderWeek(){let t=(new Date().getDay()+1)%7;$('week').innerHTML=names.map((d,i)=>`<label class="day ${i===t?'today':''}">${d}<input type="checkbox" data-day="${i}" aria-label="يوم ${d}" ${state.week?.[i]?'checked':''}></label>`).join('');
+ document.querySelectorAll('[data-day]').forEach(cb=>cb.addEventListener('change',e=>{state.week=state.week||{};state.week[e.target.dataset.day]=e.target.checked;persist()}))}
+renderWeek();
+$('resetWeek').onclick=()=>{state.week={};persist();renderWeek()};
 
-        <section class="card" id="diagnosticSection">
-            <div class="section-head">
-                <div class="icon-box">🧠</div>
-                <h2>فحص الأعطال (OBD-II)</h2>
-            </div>
+/* ---- Journal ---- */
+function renderJournal(){let j=state.journal;$('journal').innerHTML=j.length?j.map((n,i)=>`<li><div class="jh"><span><span class="tag">${esc(n.t)}</span> ${esc(n.d)}</span><button type="button" data-del="${i}">حذف</button></div>${esc(n.x)}</li>`).join(''):'<li style="color:var(--muted)">لا توجد فوائد محفوظة بعد. ابدأ بفائدة واحدة اليوم.</li>';
+ document.querySelectorAll('[data-del]').forEach(b=>b.onclick=()=>{state.journal.splice(+b.dataset.del,1);persist();renderJournal()})}
+function addEntry(type,text,msgEl){text=text.trim();if(!text){msgEl.textContent='اكتب شيئاً قبل الحفظ';return false}
+ state.journal.unshift({d:today(),t:type,x:text});state.journal=state.journal.slice(0,200);persist();renderJournal();msgEl.textContent='حُفظت ✓';setTimeout(()=>msgEl.textContent='',2500);return true}
+$('saveNotes').onclick=()=>{if(addEntry($('noteType').value,$('notesText').value,$('saved')))$('notesText').value=''};
+$('saveTad').onclick=()=>{if(addEntry('تدبر',$('tadText').value,$('tadSaved')))$('tadText').value=''};
+renderJournal();
 
-            <div class="input-group">
-                <select id="carBrand">
-                    <option value="Generic">🏎️ نوع السيارة (عام)</option>
-                    <option value="Toyota">🇯🇵 تويوتا / لكزس</option>
-                    <option value="Nissan">🇯🇵 نيسان / إنفينيتي</option>
-                    <option value="Hyundai">🇰🇷 هيونداي / كيا</option>
-                    <option value="GM">🇺🇸 شفروليه / جمس</option>
-                    <option value="Ford">🇺🇸 فورد / لينكولن</option>
-                    <option value="German">🇩🇪 مرسيدس / بي ام</option>
-                </select>
-            </div>
-
-            <div class="input-group">
-                <input type="text" id="codeInput" placeholder="أدخل كود العطل (مثال: P0300)">
-            </div>
-
-            <div class="btn-row">
-                <button class="btn-scan" onclick="performScan(false)">🔍 فحص</button>
-                <button class="btn-ai" onclick="performScan(true)">🤖 تحليل AI</button>
-            </div>
-
-            <div style="margin-top:15px; overflow-x:auto; white-space:nowrap; padding-bottom:5px;" id="historyList"></div>
-
-            <div id="aiLoading" class="ai-loader">
-                <div>جاري الاتصال بقاعدة بيانات الذكاء الاصطناعي...</div>
-                <div class="radar-scan"></div>
-            </div>
-
-            <div id="resultCard">
-                <div class="the-code" id="resCode">P0000</div>
-                <div style="text-align:center; color:#94a3b8; margin-bottom:15px;" id="resSystem">Unknown System</div>
-
-                <div style="background:rgba(0,0,0,0.2); border-radius:12px; padding:15px;">
-                    <div style="margin-bottom:10px;"><span style="color:#94a3b8;">المشكلة:</span> <strong id="resMean" style="color:#fff; float:left;">-</strong></div>
-                    <div style="clear:both; border-top:1px solid rgba(255,255,255,0.1); margin:10px 0;"></div>
-                    <div><span style="color:#94a3b8;">الحل:</span> <strong id="resFix" style="color:var(--success); float:left;">-</strong></div>
-                </div>
-
-                <div id="aiPanel" class="ai-box">
-                    <strong style="color:var(--accent);">💡 استشارة الذكاء الاصطناعي:</strong>
-                    <p id="aiText" style="margin-top:8px; line-height:1.6; color:#e2e8f0; font-size:0.95rem; min-height:40px;"></p>
-                </div>
-
-                <a href="#" id="waLink" target="_blank" style="display:block; text-align:center; background:#25D366; color:#fff; padding:15px; border-radius:16px; margin-top:20px; text-decoration:none; font-weight:bold;">📤 مشاركة التقرير (واتساب)</a>
-            </div>
-        </section>
-
-        <section class="card">
-            <div class="section-head">
-                <div class="icon-box">🚗</div>
-                <h2>فك رقم الهيكل (VIN)</h2>
-            </div>
-            <div class="input-group">
-                <input type="text" id="vinInput" maxlength="17" placeholder="أدخل رقم الشاصي (17 خانة)" style="letter-spacing: 2px; text-transform: uppercase;">
-            </div>
-            <button class="btn-ghost" onclick="decodeVIN()" style="width: 100%;">تحليل الرقم</button>
-            <div id="vinResult" class="vin-result">
-                <div style="margin-bottom: 5px;"><span class="vin-tag">البلد</span> <strong id="vinCountry">-</strong></div>
-                <div><span class="vin-tag">السنة</span> <strong id="vinYear">-</strong></div>
-            </div>
-        </section>
-
-        <section class="card">
-            <div class="section-head">
-                <div class="icon-box">⚖️</div>
-                <h2>محولات الوحدات</h2>
-            </div>
-            <h3 style="color:var(--primary); font-size:1rem; margin-bottom:10px;">🔧 تحويل العزم</h3>
-            <div class="converter-grid">
-                <div><span class="unit-label">Nm</span><input type="number" id="nmInput" class="conv-input" placeholder="0" oninput="convertTorque('nm')"></div>
-                <div><span class="unit-label">ft-lb</span><input type="number" id="ftlbInput" class="conv-input" placeholder="0" oninput="convertTorque('ftlb')"></div>
-            </div>
-            <h3 style="color:var(--primary); font-size:1rem; margin-bottom:10px; border-top:1px solid var(--border); padding-top:10px;">💨 ضغط الهواء</h3>
-            <div class="converter-grid">
-                <div><span class="unit-label">PSI</span><input type="number" id="psiInput" class="conv-input" placeholder="0" oninput="convertPressure('psi')"></div>
-                <div><span class="unit-label">Bar</span><input type="number" id="barInput" class="conv-input" placeholder="0" oninput="convertPressure('bar')"></div>
-            </div>
-        </section>
-
-        <section class="card">
-            <div class="section-head">
-                <div class="icon-box">📝</div>
-                <h2>مفكرة الميكانيكي</h2>
-            </div>
-            <textarea id="myNotes" class="notes-area" placeholder="ملاحظاتك هنا..." oninput="saveNotes()"></textarea>
-            <div style="text-align:left; font-size:0.8rem; color:var(--success); margin-top:5px;">✅ يتم الحفظ تلقائياً</div>
-        </section>
-
-        <section class="card" id="toolsSection">
-            <div class="section-head">
-                <div class="icon-box">🧮</div>
-                <h2>أدوات & أكواد</h2>
-            </div>
-            <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:20px;">
-                <button class="btn-ghost" onclick="showAllCodes()">📚 عرض كل الأكواد</button>
-                
-                <div style="background:rgba(255,255,255,0.05); padding:10px; border-radius:12px; text-align:center;">
-                    <div style="font-size:0.8rem; color:var(--accent);">حاسبة المكينة</div>
-                    <div style="display:flex; gap:2px; margin-top:5px;">
-                        <input id="boreInput" placeholder="B" style="padding:5px; font-size:0.8rem; width:30%;">
-                        <input id="strokeInput" placeholder="S" style="padding:5px; font-size:0.8rem; width:30%;">
-                        <input id="cylInput" placeholder="C" style="padding:5px; font-size:0.8rem; width:30%;">
-                    </div>
-                    <button onclick="calcCC()" style="background:var(--primary); width:100%; padding:5px; margin-top:5px; border-radius:5px; border:none; color:white;">احسب CC</button>
-                    <div id="ccDisplay" style="color:var(--success); font-weight:bold; font-size:0.9rem; margin-top:5px;"></div>
-                </div>
-            </div>
-            
-            <div id="tableContainer" style="overflow-x:auto; max-height:250px; scroll-behavior:smooth;">
-                <table style="width:100%; text-align:right; border-collapse:collapse;">
-                    <thead><tr style="color:var(--primary); position:sticky; top:0; background:var(--glass);"><th style="padding:10px;">الكود</th><th>الوصف</th></tr></thead>
-                    <tbody id="tableBody"></tbody>
-                </table>
-            </div>
-        </section>
-
-    </div>
-
-    <footer>
-        <div style="font-weight:bold; font-size:1.1rem; color:#fff; margin-bottom:10px;">
-            تم التطوير بواسطة: <span style="color:var(--primary);">ابو عساف Hz</span>
-        </div>
-        
-        <div class="social-container">
-            <a href="https://instagram.com/sww_p" target="_blank" class="social-btn insta">📷 Instagram</a>
-            <a href="https://snapchat.com/add/sww_p" target="_blank" class="social-btn snap">👻 Snapchat</a>
-            <a href="https://twitter.com/sww_p" target="_blank" class="social-btn twitter">🐦 Twitter</a>
-        </div>
-        
-        <p style="margin-top:20px; font-size:0.8rem;">نسخة S23 Ultra الاحترافية © 2026</p>
-    </footer>
-
-    <script>
-        /* =========================================
-           JAVASCRIPT LOGIC
-           ========================================= */
-        let db = [];
-        function add(c, m, f, sys, b) { if(!db.some(x=>x.c===c)) db.push({c, m, f, sys, b}); }
-
-        // Data
-        add("P0101", "أداء حساس MAF", "تنظيف الحساس", "Air", "All");
-        add("P0171", "خليط فقير (Lean)", "فحص تهريب هواء", "Fuel", "All");
-        add("P0300", "فقد إشعال (Misfire)", "بواجي / كويلات", "Ignition", "All");
-        add("P0420", "كفاءة دبة التلوث", "فحص الدبة", "Exhaust", "All");
-        add("P0442", "تسريب تبخير بسيط", "تغيير غطاء البنزين", "EVAP", "All");
-        add("P0700", "عطل قير", "فحص كمبيوتر قير", "Trans", "All");
-
-        for(let i=100; i<999; i++) {
-            let c="P0"+i;
-            if(!db.some(x=>x.c===c)) {
-                let sys="General";
-                if(i<200) sys="Fuel/Air"; else if(i<300) sys="Injection"; else if(i<400) sys="Ignition"; 
-                else if(i<500) sys="Emission"; else if(i<600) sys="Speed"; else if(i<700) sys="ECU"; else sys="Trans";
-                add(c, "عطل في نظام "+sys, "فحص الدائرة الكهربائية", sys, "Generic");
-            }
-        }
-        document.getElementById('dbStatus').innerText = "النظام جاهز: "+db.length+" كود";
-
-        // --- SCANNING LOGIC ---
-        function performScan(isAI) {
-            let input = document.getElementById('codeInput').value.toUpperCase().trim();
-            let brand = document.getElementById('carBrand').value;
-            let card = document.getElementById('resultCard');
-            let loader = document.getElementById('aiLoading');
-            
-            if(!input) { alert("أدخل الكود!"); return; }
-            
-            card.style.display = "none";
-            document.getElementById('aiPanel').style.display = "none";
-            document.getElementById('aiText').innerHTML = ""; // Reset text
-
-            if(isAI) {
-                // Show Loader
-                loader.style.display = "block";
-                document.getElementById('dbStatus').innerText = "جاري التحليل...";
-                
-                // Simulate delay
-                setTimeout(() => { 
-                    loader.style.display = "none";
-                    showResult(input, brand, true); 
-                    document.getElementById('dbStatus').innerText = "تم التحليل"; 
-                }, 2000);
-            } else {
-                showResult(input, brand, false);
-            }
-        }
-
-        function showResult(code, brand, isAI) {
-            let item = db.find(x => x.c === code);
-            let displayBrand = brand === "Generic" ? (item ? item.sys : "System") : brand;
-
-            document.getElementById('resultCard').style.display = "block";
-            document.getElementById('resCode').innerText = code;
-            document.getElementById('resSystem').innerText = displayBrand + " System";
-
-            // History
-            let hist = document.getElementById('historyList');
-            let chip = document.createElement('span');
-            chip.style.cssText = "background:rgba(255,255,255,0.1); padding:5px 15px; border-radius:20px; margin-right:5px; color:#ccc; cursor:pointer; display:inline-block;";
-            chip.innerText = code;
-            chip.onclick = () => { loadCodeFromClick(code); };
-            hist.prepend(chip);
-
-            if(item) {
-                document.getElementById('resMean').innerText = item.m;
-                document.getElementById('resFix').innerText = item.f;
-                let wa = `*تقرير فني*\n🚘 ${brand}\n⚠️ ${code}\n🛠️ ${item.m}\n🔧 ${item.f}`;
-                document.getElementById('waLink').href = `https://wa.me/?text=${encodeURIComponent(wa)}`;
-            } else {
-                document.getElementById('resMean').innerText = "غير معروف";
-                document.getElementById('resFix').innerText = "فحص دليل المصنع";
-            }
-
-            if(isAI) {
-                let aiPanel = document.getElementById('aiPanel');
-                aiPanel.style.display = "block";
-                aiPanel.classList.add('ai-active'); // Add glow
-                
-                let textToType = `تحليل الذكاء للكود ${code} في سيارة (${brand}):\n`;
-                if(code.startsWith("P03")) textToType += "تم رصد مشكلة إشعال. يوصى بتبديل الكويلات (Swapping) لتحديد مصدر العطل.";
-                else if(code.startsWith("P017")) textToType += "مشكلة في خليط الوقود. غالباً بسبب تهريب هواء (Vacuum Leak) غير مرئي.";
-                else if(code.startsWith("P07")) textToType += "مشكلة في القير. يرجى فحص جودة الزيت قبل أي إجراء.";
-                else textToType += "العطل غالباً كهربائي. تأكد من الفيوزات والتوصيلات قبل الاستبدال.";
-
-                // تشغيل تأثير الكتابة
-                typeWriterEffect(textToType, 'aiText');
-            }
-        }
-
-        // --- Typewriter Effect ---
-        function typeWriterEffect(text, elementId) {
-            let i = 0;
-            let speed = 30; // سرعة الكتابة
-            let elem = document.getElementById(elementId);
-            elem.innerHTML = "<span class='cursor'></span>"; // Add cursor
-            
-            function type() {
-                if (i < text.length) {
-                    elem.innerHTML = text.substring(0, i+1) + "<span class='cursor'></span>";
-                    i++;
-                    setTimeout(type, speed);
-                }
-            }
-            type();
-        }
-
-        function loadCodeFromClick(code) {
-            document.getElementById('codeInput').value = code;
-            document.getElementById('diagnosticSection').scrollIntoView({behavior: 'smooth'});
-            performScan(false);
-        }
-
-        // --- FIX: Show All Codes Function ---
-        function showAllCodes() {
-            renderTable('all');
-            // النزول تلقائياً للجدول
-            let tableSection = document.getElementById('tableContainer');
-            tableSection.scrollIntoView({behavior: 'smooth'});
-            // وميض بسيط لتنبيه المستخدم
-            tableSection.style.border = "2px solid var(--primary)";
-            setTimeout(() => { tableSection.style.border = "none"; }, 1000);
-        }
-
-        // --- Other Features ---
-        function saveNotes() { localStorage.setItem('mechanic_notes', document.getElementById('myNotes').value); }
-        function decodeVIN() {
-            let vin = document.getElementById('vinInput').value.toUpperCase();
-            if(vin.length !== 17) { alert("رقم الهيكل يجب أن يكون 17 خانة"); return; }
-            let country = "غير معروف";
-            let c1 = vin.charAt(0);
-            if('145'.includes(c1)) country="الولايات المتحدة (USA)";
-            else if('J'.includes(c1)) country="اليابان (Japan)";
-            else if('K'.includes(c1)) country="كوريا (Korea)";
-            else if('W'.includes(c1)) country="ألمانيا (Germany)";
-            document.getElementById('vinResult').style.display = "block";
-            document.getElementById('vinCountry').innerText = country;
-            document.getElementById('vinYear').innerText = "20"+vin.charAt(9)+"X (تقديري)";
-        }
-
-        function convertTorque(type) {
-            let nm = document.getElementById('nmInput');
-            let ft = document.getElementById('ftlbInput');
-            if(type === 'nm') ft.value = (nm.value * 0.73756).toFixed(1);
-            else nm.value = (ft.value * 1.3558).toFixed(1);
-        }
-        function convertPressure(type) {
-            let psi = document.getElementById('psiInput');
-            let bar = document.getElementById('barInput');
-            if(type === 'psi') bar.value = (psi.value * 0.0689).toFixed(2);
-            else psi.value = (bar.value * 14.5038).toFixed(1);
-        }
-        function calcCC() {
-            let b = document.getElementById('boreInput').value;
-            let s = document.getElementById('strokeInput').value;
-            let c = document.getElementById('cylInput').value;
-            if(b&&s&&c) document.getElementById('ccDisplay').innerText = ((Math.PI * Math.pow(b/2,2) * s * c)/1000).toFixed(0) + " CC";
-        }
-
-        function renderTable(f) {
-            let tb = document.getElementById('tableBody'); tb.innerHTML="";
-            let d = f==='all'?db:db.filter(x=>x.b===f||x.b==='All');
-            d.slice(0,50).forEach(x=>{
-                tb.innerHTML+=`<tr onclick="loadCodeFromClick('${x.c}')"><td style="padding:10px; border-bottom:1px solid #333; color:#ff6b00; font-weight:bold;">${x.c}</td><td style="padding:10px; border-bottom:1px solid #333; color:#ccc;">${x.m}</td></tr>`;
-            });
-        }
-
-        window.onload = function() {
-            renderTable('all');
-            if(localStorage.getItem('mechanic_notes')) document.getElementById('myNotes').value = localStorage.getItem('mechanic_notes');
-        };
-    </script>
-</body>
-</html>
+/* ---- Timer: 25 focus / 5 break ---- */
+let mode='focus',seconds=1500,tick=null;
+function clock(){$('timer').textContent=String(Math.floor(seconds/60)).padStart(2,'0')+':'+String(seconds%60).padStart(2,'0')}
+function stop(){clearInterval(tick);tick=null;document.title=baseTitle}
+const baseTitle=document.title;
+$('start').onclick=()=>{if(tick)return;$('timerStatus').textContent=mode==='focus'?'جلسة تركيز جارية':'استراحة قصيرة';
+ tick=setInterval(()=>{if(seconds>0){seconds--;clock();document.title=$('timer').textContent+' — '+baseTitle}else{stop();
+  if(mode==='focus'){mode='break';seconds=300;$('timerStatus').textContent='انتهت الجلسة. استرح خمس دقائق ثم راجع ما تعلمته.'}else{mode='focus';seconds=1500;$('timerStatus').textContent='انتهت الاستراحة. ابدأ جلسة جديدة حين تكون مستعداً.'}clock()}},1000)};
+$('pause').onclick=()=>{stop();$('timerStatus').textContent='متوقف مؤقتاً'};
+$('reset').onclick=()=>{stop();mode='focus';seconds=1500;$('timerStatus').textContent='';clock()};clock();
+$('resetAll').onclick=()=>{if(confirm('سيتم مسح التقدم والملاحظات والورد من هذا المتصفح. هل أنت متأكد؟')){try{localStorage.removeItem(STORE);localStorage.removeItem(OLD)}catch(e){}location.reload()}};
+</script>
+</body></html>
